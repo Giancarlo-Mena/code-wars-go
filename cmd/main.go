@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	printDecodeMorse(".... . -.--   .--- ..- -.. .")
+	printBuildTower(2)
 }
 
 func printReverseWords(str string) {
@@ -16,4 +16,8 @@ func printReverseWords(str string) {
 
 func printDecodeMorse(str string) {
 	fmt.Print(aux.DecodeMorse(str))
+}
+
+func printBuildTower(floors int) {
+	fmt.Print(aux.TowerBuilder(floors))
 }
