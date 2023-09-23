@@ -8,7 +8,7 @@ CodeWars is a platform that offers coding challenges known as kata. This reposit
 
 ## Structure
 
-ll solutions are organized within the `challenges` directory. Each kata is contained in its own file, named after the kata title.
+All solutions are organized within the `challenges` directory. Each kata is contained in its own file, named after the kata title.
 
 ## License
 
