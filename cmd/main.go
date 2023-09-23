@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	aux "github.com/giancarlo-mena/code-wars-go/challenges"
+	lvl6 "github.com/giancarlo-mena/code-wars-go/challenges/6"
+	lvl7 "github.com/giancarlo-mena/code-wars-go/challenges/7"
 )
 
 func main() {
@@ -11,17 +12,17 @@ func main() {
 }
 
 func printReverseWords(str string) {
-	fmt.Print(aux.ReverseWords(str))
+	fmt.Print(lvl7.ReverseWords(str))
 }
 
 func printDecodeMorse(str string) {
-	fmt.Print(aux.DecodeMorse(str))
+	fmt.Print(lvl6.DecodeMorse(str))
 }
 
 func printBuildTower(floors int) {
-	fmt.Print(aux.TowerBuilder(floors))
+	fmt.Print(lvl6.TowerBuilder(floors))
 }
 
 func printDeadfishSwim(str string) {
-	fmt.Print(aux.Parse(str))
+	fmt.Print(lvl6.Parse(str))
 }
