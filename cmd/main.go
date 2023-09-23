@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	printBuildTower(2)
+	printDeadfishSwim("ioioio")
 }
 
 func printReverseWords(str string) {
@@ -20,4 +20,8 @@ func printDecodeMorse(str string) {
 
 func printBuildTower(floors int) {
 	fmt.Print(aux.TowerBuilder(floors))
+}
+
+func printDeadfishSwim(str string) {
+	fmt.Print(aux.Parse(str))
 }
