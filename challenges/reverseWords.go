@@ -4,7 +4,7 @@ import "strings"
 
 func ReverseWords(str string) string {
 	strs := strings.Split(str, " ")
-	result := make([]string, 0)
+	result := []string{}
 
 	for _, s := range strs {
 		var aux string = ""
