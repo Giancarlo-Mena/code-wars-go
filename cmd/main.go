@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Print(aux.ReverseWords("This is an example!"))
+	fmt.Print(aux.ReverseWords("The quick brown fox jumps over the lazy dog."))
 }
