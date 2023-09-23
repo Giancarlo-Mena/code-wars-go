@@ -9,7 +9,3 @@ CodeWars is a platform that offers coding challenges known as kata. This reposit
 ## Structure
 
 All solutions are organized within the `challenges` directory. Each kata is contained in its own file, named after the kata title.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
