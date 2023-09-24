@@ -21,3 +21,10 @@ func HumanReadableTime(seconds int) string {
 	result += hour + ":" + min + ":" + sec
 	return result
 }
+
+func HumanBetterVersion(seconds int) string {
+	hour := seconds / 3600
+	min := seconds % 3600 / 60
+	sec := seconds % 60
+	return fmt.Sprintf("%02d:%02d:%02d", hour, min, sec)
+}
