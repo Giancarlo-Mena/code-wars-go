@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 
+	lvl5 "github.com/giancarlo-mena/code-wars-go/challenges/5"
 	lvl6 "github.com/giancarlo-mena/code-wars-go/challenges/6"
 	lvl7 "github.com/giancarlo-mena/code-wars-go/challenges/7"
 )
 
 func main() {
-	printDeadfishSwim("ioioio")
+	printHumanReadableTime(59)
 }
 
 func printReverseWords(str string) {
@@ -25,4 +26,8 @@ func printBuildTower(floors int) {
 
 func printDeadfishSwim(str string) {
 	fmt.Print(lvl6.Parse(str))
+}
+
+func printHumanReadableTime(seconds int) {
+	fmt.Print(lvl5.HumanReadableTime(seconds))
 }
