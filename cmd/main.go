@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	printTortoiseRace(720, 850, 70)
+	printTortoiseRace(80, 91, 37)
 }
 
 func printReverseWords(str string) {
