@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	printHumanReadableTime(59)
+	printTortoiseRace(720, 850, 70)
 }
 
 func printReverseWords(str string) {
@@ -30,4 +30,8 @@ func printDeadfishSwim(str string) {
 
 func printHumanReadableTime(seconds int) {
 	fmt.Print(lvl5.HumanReadableTime(seconds))
+}
+
+func printTortoiseRace(v1, v2, g int) {
+	fmt.Print(lvl6.Race(v1, v2, g))
 }
