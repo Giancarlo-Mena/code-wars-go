@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	printTortoiseRace(80, 91, 37)
+	printCamelCaseMethod("test case")
 }
 
 func printReverseWords(str string) {
@@ -34,4 +34,8 @@ func printHumanReadableTime(seconds int) {
 
 func printTortoiseRace(v1, v2, g int) {
 	fmt.Print(lvl6.Race(v1, v2, g))
+}
+
+func printCamelCaseMethod(str string) {
+	fmt.Print(lvl6.CamelCase(str))
 }
