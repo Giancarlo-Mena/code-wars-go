@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	printCamelCaseMethod("test case")
+	printBitCounting(1234)
 }
 
 func printReverseWords(str string) {
@@ -38,4 +38,8 @@ func printTortoiseRace(v1, v2, g int) {
 
 func printCamelCaseMethod(str string) {
 	fmt.Print(lvl6.CamelCase(str))
+}
+
+func printBitCounting(number uint) {
+	fmt.Print((lvl6.CountBits(number)))
 }
