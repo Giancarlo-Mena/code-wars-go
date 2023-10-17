@@ -3,13 +3,16 @@ package main
 import (
 	"fmt"
 
+	lvl4 "github.com/giancarlo-mena/code-wars-go/challenges/4"
 	lvl5 "github.com/giancarlo-mena/code-wars-go/challenges/5"
 	lvl6 "github.com/giancarlo-mena/code-wars-go/challenges/6"
 	lvl7 "github.com/giancarlo-mena/code-wars-go/challenges/7"
 )
 
 func main() {
-	printBitCounting(1234)
+	printFormatDuration(1243126234)
+	printFormatDuration(1243126234)
+	printFormatDuration(1243126234)
 }
 
 func printReverseWords(str string) {
@@ -42,4 +45,8 @@ func printCamelCaseMethod(str string) {
 
 func printBitCounting(number uint) {
 	fmt.Print((lvl6.CountBits(number)))
+}
+
+func printFormatDuration(seconds int64) {
+	fmt.Println(lvl4.FormatDuration(seconds))
 }
